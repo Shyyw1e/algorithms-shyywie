@@ -17,8 +17,8 @@ func Exersice2() {
 		j++
 	}
 	if string(arr) == string(arr2) {
-		fmt.Println("Palyndrome")
+		fmt.Println("Palindrome")
 	}else {
-		fmt.Println("Not palyndrome")
+		fmt.Println("Not Palindrome")
 	}
 }
