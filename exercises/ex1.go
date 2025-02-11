@@ -5,7 +5,13 @@ import(
 )
 
 func Exersice1(){
-	var reqNum int
+	var target int
+	var length int
 	fmt.Println("Write down integer")
-	fmt.Scan(&reqNum)
+	fmt.Scan(&target)
+	fmt.Println("Write down array length")
+	fmt.Scan(&length)
+	arr := make([]int, length)
+
+	fmt.Print(arr)
 }
