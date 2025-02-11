@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	
+
 	"github.com/Shyyw1e/algorithms-shyywie/exercises"
 )
 

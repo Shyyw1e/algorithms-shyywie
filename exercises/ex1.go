@@ -21,6 +21,7 @@ func Exersice1() {
 	for idx, elem := range arr {
 		if elem == target {
 			res = idx
+			break
 		}
 	}
 	fmt.Println(res)
