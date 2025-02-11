@@ -2,7 +2,7 @@ package main
 import (
 	"fmt"
 
-	"go-algorithms/exercises"
+	"algorithms-shyywie/exercises"
 )
 
 func main() {
