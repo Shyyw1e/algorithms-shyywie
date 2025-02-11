@@ -12,6 +12,7 @@ func Exersice1() {
 	fmt.Println("Write down array length")
 	fmt.Scan(&length)
 	arr := make([]int, length)
+	fmt.Println("Write array elements")
 	for i := 0; i < length; i++ {
 		var el int
 		fmt.Scan(&el)
@@ -24,5 +25,5 @@ func Exersice1() {
 			break
 		}
 	}
-	fmt.Println(res)
+	fmt.Printf("Answer: %v\n", res)
 }
