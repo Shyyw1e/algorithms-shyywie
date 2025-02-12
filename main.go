@@ -15,4 +15,6 @@ func main() {
 	exercises.Exersice3()
 	fmt.Print("Ex.4:\n")
 	exercises.Exersice4()
+	fmt.Print("Ex.5:\n")
+	exercises.Exersice5()
 }
